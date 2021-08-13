@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Personal\myBlog\MambaLiu.github.io\src\styles.css */"OmL/");
+module.exports = __webpack_require__(/*! D:\Personal\myBlog\MyBlog\src\styles.css */"OmL/");
 
 
 /***/ }),
