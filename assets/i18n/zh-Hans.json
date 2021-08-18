@@ -9,10 +9,10 @@
     "EN_US":"English"
   },
   "BASE": {
-    "WELCOME": "Welcome",
-    "LANGUAGE":"Language",
-    "THEME":"Theme",
-    "ABOUT":"About",
-    "ABOUT_WEBSITE":"About Website"
+    "WELCOME": "欢迎",
+    "LANGUAGE":"语言",
+    "THEME":"换肤",
+    "ABOUT":"关于",
+    "ABOUT_WEBSITE":"关于网站"
   }
 }
