@@ -1,5 +1,22 @@
 {
-  "BASE":{
-    "WELCOME":"欢迎"
+  "THEME":{
+    "DARK":"深色",
+    "LIGHT":"浅色"
+  },
+  "LANGUAGE":{
+    "ZH_HANS":"简体中文",
+    "ZH_HANT":"繁體中文",
+    "EN_US":"English"
+  },
+  "BASE": {
+    "WELCOME": "欢迎",
+    "LANGUAGE":"语言",
+    "THEME":"换肤",
+    "ABOUT":"关于",
+    "ABOUT_WEBSITE":"关于网站",
+    "NAME":"刘 云泽",
+    "FROM":"新疆 乌鲁木齐",
+    "ADRESS":"广东 深圳",
+    "JOB":"前端工程师"
   }
 }
