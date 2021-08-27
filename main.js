@@ -372,7 +372,7 @@ class IndexComponent {
                 iconSrc: '../../assets/img/icon/主页.png',
                 text: 'TEXT.PER_PAGE_TEXT',
                 isClick: false,
-                router: '/me'
+                router: '/me',
             },
             {
                 index: 1,
@@ -380,7 +380,7 @@ class IndexComponent {
                 iconSrc: '../../assets/img/icon/简历.png',
                 text: 'TEXT.RESUME_TEXT',
                 isClick: false,
-                router: '/me'
+                router: '/me',
             },
             {
                 index: 2,
@@ -388,7 +388,7 @@ class IndexComponent {
                 iconSrc: '../../assets/img/icon/项目.png',
                 text: 'TEXT.PROJECT_TEXT',
                 isClick: false,
-                router: '/me'
+                router: '/me',
             },
             {
                 index: 3,
@@ -396,7 +396,7 @@ class IndexComponent {
                 iconSrc: '../../assets/img/icon/实验室.png',
                 text: 'TEXT.LAB_TEXT',
                 isClick: false,
-                router: '/me'
+                router: '/me',
             },
             {
                 index: 4,
@@ -404,7 +404,7 @@ class IndexComponent {
                 iconSrc: '../../assets/img/icon/分享.png',
                 text: 'TEXT.SHARE_TEXT',
                 isClick: false,
-                router: '/me'
+                router: '/me',
             },
             {
                 index: 5,
@@ -412,7 +412,7 @@ class IndexComponent {
                 iconSrc: '../../assets/img/icon/about4.png',
                 text: 'TEXT.ABOUT_TEXT',
                 isClick: false,
-                router: '/me'
+                router: '/me',
             },
         ];
         this.lastTimeTitle = '';
@@ -468,8 +468,13 @@ class IndexComponent {
         this.navList[index].isClick = true;
         setTimeout(() => {
             this.navList[index].isClick = false;
-        }, 400);
-        this.router.navigateByUrl(router); /*页面跳转*/
+        }, 250);
+        setTimeout(() => {
+            /*页面跳转1*/
+            // this.router.navigate([router]);
+            /*页面跳转2*/
+            this.router.navigateByUrl(router);
+        }, 500);
     }
 }
 IndexComponent.ɵfac = function IndexComponent_Factory(t) { return new (t || IndexComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"])); };
