@@ -17,6 +17,20 @@
     "NAME":"刘 云泽",
     "FROM":"新疆 乌鲁木齐",
     "ADRESS":"广东 深圳",
-    "JOB":"前端工程师"
+    "JOB":"前端工程师",
+    "ALBUM":"相册",
+    "RESUME":"简历",
+    "LAB":"实验室",
+    "SHARE":"分享",
+    "PER_PAGE":"主页",
+    "PROJECT":"项目"
+  },
+  "TEXT":{
+    "PER_PAGE_TEXT":"简介、相册、标签等",
+    "RESUME_TEXT":"个人简历",
+    "PROJECT_TEXT":"做过的项目",
+    "SHARE_TEXT":"分享一些音乐、电影、游戏等一切值得分享的东西",
+    "ABOUT_TEXT":"关于网站的一些介绍和心得",
+    "LAB_TEXT":"一些还在开发中或已完成练手的小东西"
   }
 }

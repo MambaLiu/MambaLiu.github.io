@@ -17,6 +17,20 @@
     "NAME":"劉 雲澤",
     "FROM":"新疆 烏魯木齊",
     "ADRESS":"廣東 深圳",
-    "JOB":"前端工程師"
+    "JOB":"前端工程師",
+    "ALBUM":"相冊",
+    "RESUME":"簡歷",
+    "LAB":"實驗室",
+    "SHARE":"分享",
+    "PER_PAGE":"主頁",
+    "PROJECT":"項目"
+  },
+  "TEXT":{
+    "PER_PAGE_TEXT":"簡介、相冊、標籤等",
+    "RESUME_TEXT":"個人簡歷",
+    "PROJECT_TEXT":"做過的項目",
+    "SHARE_TEXT":"分享一些音樂、電影、遊戲等一切值得分享的東西",
+    "ABOUT_TEXT":"關於網站的一些介紹和心得",
+    "LAB_TEXT":"一些還在開發中或已完成練手的小東西"
   }
 }
