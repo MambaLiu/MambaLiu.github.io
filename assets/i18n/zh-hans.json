@@ -23,7 +23,8 @@
     "LAB":"实验室",
     "SHARE":"分享",
     "PER_PAGE":"主页",
-    "PROJECT":"项目"
+    "PROJECT":"项目",
+    "TO_BE_DEVELOPED":"待开发"
   },
   "TEXT":{
     "PER_PAGE_TEXT":"简介、相册、标签等",
@@ -31,6 +32,7 @@
     "PROJECT_TEXT":"做过的项目",
     "SHARE_TEXT":"分享一些音乐、电影、游戏等一切值得分享的东西",
     "ABOUT_TEXT":"关于网站的一些介绍和心得",
-    "LAB_TEXT":"一些还在开发中或已完成练手的小东西"
+    "LAB_TEXT":"一些还在开发中或已完成练手的小东西",
+    "TO_BE_DEVELOPED_TEXT":"功能尚待开发"
   }
 }

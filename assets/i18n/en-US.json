@@ -23,14 +23,16 @@
     "LAB":"Laboratory",
     "SHARE":"Share",
     "PER_PAGE":"Home page",
-    "PROJECT":"Project"
+    "PROJECT":"Project",
+    "TO_BE_DEVELOPED":"To be developed"
   },
   "TEXT":{
     "PER_PAGE_TEXT":"Introduction, Photo album, Tags, etc.",
     "RESUME_TEXT":"Personal resume",
     "PROJECT_TEXT":"Already completed project",
     "SHARE_TEXT":"Share some music, movies, games and other things worth sharing",
-    "ABOUT_TEXT":"Some introductions and experiences on the website",
-    "LAB_TEXT":"Some small things that are still under development or have completed hand training"
+    "ABOUT_TEXT":"Some introductions and experiences about the website",
+    "LAB_TEXT":"Some small things that are still under development or have completed hand training",
+    "TO_BE_DEVELOPED_TEXT":"Features to be developed"
   }
 }
