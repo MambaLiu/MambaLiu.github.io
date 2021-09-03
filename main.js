@@ -23,8 +23,28 @@ module.exports = __webpack_require__(/*! D:\Personal\myBlogDev\src\main.ts */"zU
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MeComponent", function() { return MeComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "ofXK");
 
 
+
+function MeComponent_div_3_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "img", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "div", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "div", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "div", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
 // import { Component, ViewEncapsulation, ViewChild,OnInit, AfterViewInit, } from "@angular/core";
 // import { SwiperComponent } from "swiper/angular";
 // import Swiper core and required modules
@@ -47,6 +67,32 @@ class MeComponent {
             '../../../assets/img/bgimg/perPic.png',
             '../../../assets/img/bgimg/snow.png',
             '../../../assets/img/bgimg/snow2.png',
+        ];
+        this.cardList = [
+            {
+                adress: '澳门 永利皇宫',
+                imgSrc: '../../../assets/img/album/浮雕.jpg',
+            },
+            {
+                adress: '香港 彩虹邨',
+                imgSrc: '../../../assets/img/album/香港彩虹邨.jpg',
+            },
+            {
+                adress: '澳门',
+                imgSrc: '../../../assets/img/album/澳门科比球衣.jpg',
+            },
+            {
+                adress: '深圳 百度国际大厦',
+                imgSrc: '../../../assets/img/album/百度大厦.jpg',
+            },
+            {
+                adress: '珠海 国际会展中心',
+                imgSrc: '../../../assets/img/album/珠海国际会展中心.JPG',
+            },
+            {
+                adress: '澳门 巴黎人',
+                imgSrc: '../../../assets/img/album/澳门巴黎人.jpg',
+            },
         ];
     }
     ngOnInit() {
@@ -73,14 +119,13 @@ class MeComponent {
             effect: 'coverflow',
             grabCursor: true,
             centeredSlides: true,
-            slidesPerView: "auto",
-            // [slidesPerView]="'auto'"
+            slidesPerView: 'auto',
             coverflowEffect: {
                 rotate: 50,
                 stretch: 0,
                 depth: 100,
                 modifier: 1,
-                slideShadows: true
+                slideShadows: false,
             },
             pagination: true,
         });
@@ -98,11 +143,19 @@ class MeComponent {
     }
 }
 MeComponent.ɵfac = function MeComponent_Factory(t) { return new (t || MeComponent)(); };
-MeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MeComponent, selectors: [["app-me"]], decls: 2, vars: 0, template: function MeComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "111");
+MeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MeComponent, selectors: [["app-me"]], decls: 5, vars: 1, consts: [[1, "me-out"], [1, "swiper-container"], [1, "swiper-wrapper"], ["class", "swiper-slide", 4, "ngFor", "ngForOf"], [1, "swiper-pagination"], [1, "swiper-slide"], [1, "card"], [1, "card-top"], [1, "top-left"], ["src", "../../../assets/img/bgimg/perPic.png"], [1, "top-right"], [1, "card-pic"], [1, "card-description"], [1, "card-bottom"]], template: function MeComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, MeComponent_div_3_Template, 11, 0, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: [".swiper-container {\r\n  width: 600px;\r\n  height: 300px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWUvbWUvbWUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFlBQVk7RUFDWixhQUFhO0FBQ2YiLCJmaWxlIjoic3JjL2FwcC9tZS9tZS9tZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnN3aXBlci1jb250YWluZXIge1xyXG4gIHdpZHRoOiA2MDBweDtcclxuICBoZWlnaHQ6IDMwMHB4O1xyXG59Il19 */"], encapsulation: 2 });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.cardList);
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"]], styles: [".me-out{\r\n  width: 100%;\r\n  border: blue 2px solid;\r\n  overflow: hidden;\r\n}\r\n.swiper-container {\r\n  width: 45vh;\r\n  height: 70vh;\r\n  border: red 2px solid;\r\n  margin: 0 auto;\r\n}\r\n.card{\r\n  height: 100%;\r\n  /* border: green solid 2px; */\r\n  background: linear-gradient(\r\n    to right bottom,\r\n    rgba(255, 255, 255, 0.6),\r\n    rgba(255, 255, 255, 0.2)\r\n  );\r\n  -webkit-backdrop-filter: blur(3px);\r\n          backdrop-filter: blur(3px);\r\n  box-shadow: 2vh 2vh 2.7vh rgba(0, 0, 0, 0.3);\r\n  border-radius: 20px;\r\n}\r\n.card-top{\r\n  height: 15%;\r\n  border: purple 2px solid;\r\n  display: flex;\r\n  flex-direction: row;\r\n  justify-content: flex-start;\r\n  align-items: center;\r\n}\r\n.top-left img{\r\n  width: 7vh;\r\n  height: 7vh;\r\n  border-radius: 7vh;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWUvbWUvbWUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFdBQVc7RUFDWCxzQkFBc0I7RUFDdEIsZ0JBQWdCO0FBQ2xCO0FBQ0E7RUFDRSxXQUFXO0VBQ1gsWUFBWTtFQUNaLHFCQUFxQjtFQUNyQixjQUFjO0FBQ2hCO0FBQ0E7RUFDRSxZQUFZO0VBQ1osNkJBQTZCO0VBQzdCOzs7O0dBSUM7RUFDRCxrQ0FBMEI7VUFBMUIsMEJBQTBCO0VBQzFCLDRDQUE0QztFQUM1QyxtQkFBbUI7QUFDckI7QUFDQTtFQUNFLFdBQVc7RUFDWCx3QkFBd0I7RUFDeEIsYUFBYTtFQUNiLG1CQUFtQjtFQUNuQiwyQkFBMkI7RUFDM0IsbUJBQW1CO0FBQ3JCO0FBQ0E7RUFDRSxVQUFVO0VBQ1YsV0FBVztFQUNYLGtCQUFrQjtBQUNwQiIsImZpbGUiOiJzcmMvYXBwL21lL21lL21lLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubWUtb3V0e1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGJvcmRlcjogYmx1ZSAycHggc29saWQ7XHJcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcclxufVxyXG4uc3dpcGVyLWNvbnRhaW5lciB7XHJcbiAgd2lkdGg6IDQ1dmg7XHJcbiAgaGVpZ2h0OiA3MHZoO1xyXG4gIGJvcmRlcjogcmVkIDJweCBzb2xpZDtcclxuICBtYXJnaW46IDAgYXV0bztcclxufVxyXG4uY2FyZHtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbiAgLyogYm9yZGVyOiBncmVlbiBzb2xpZCAycHg7ICovXHJcbiAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KFxyXG4gICAgdG8gcmlnaHQgYm90dG9tLFxyXG4gICAgcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjYpLFxyXG4gICAgcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjIpXHJcbiAgKTtcclxuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoM3B4KTtcclxuICBib3gtc2hhZG93OiAydmggMnZoIDIuN3ZoIHJnYmEoMCwgMCwgMCwgMC4zKTtcclxuICBib3JkZXItcmFkaXVzOiAyMHB4O1xyXG59XHJcbi5jYXJkLXRvcHtcclxuICBoZWlnaHQ6IDE1JTtcclxuICBib3JkZXI6IHB1cnBsZSAycHggc29saWQ7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBmbGV4LWRpcmVjdGlvbjogcm93O1xyXG4gIGp1c3RpZnktY29udGVudDogZmxleC1zdGFydDtcclxuICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG59XHJcbi50b3AtbGVmdCBpbWd7XHJcbiAgd2lkdGg6IDd2aDtcclxuICBoZWlnaHQ6IDd2aDtcclxuICBib3JkZXItcmFkaXVzOiA3dmg7XHJcbn0iXX0= */"], encapsulation: 2 });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](MeComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -367,7 +420,7 @@ BottomComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Copyright \u00A9 2021 Yunze Liu. All rights reserved");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["*[_ngcontent-%COMP%] {\r\n  font-size: 10px;\r\n  color: rgb(178, 102, 201,0.7);\r\n}\r\n.bottom[_ngcontent-%COMP%]{\r\n  \r\n  position:absolute;\r\n  bottom: 0;\r\n  height: 3.2vh;\r\n  width: 100%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYm90dG9tL2JvdHRvbS9ib3R0b20uY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGVBQWU7RUFDZiw2QkFBNkI7QUFDL0I7QUFDQTtFQUNFLDRCQUE0QjtFQUM1QixpQkFBaUI7RUFDakIsU0FBUztFQUNULGFBQWE7RUFDYixXQUFXO0VBQ1gsYUFBYTtFQUNiLHNCQUFzQjtFQUN0Qix1QkFBdUI7RUFDdkIsbUJBQW1CO0FBQ3JCIiwiZmlsZSI6InNyYy9hcHAvYm90dG9tL2JvdHRvbS9ib3R0b20uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIioge1xyXG4gIGZvbnQtc2l6ZTogMTBweDtcclxuICBjb2xvcjogcmdiKDE3OCwgMTAyLCAyMDEsMC43KTtcclxufVxyXG4uYm90dG9te1xyXG4gIC8qIGJvcmRlcjogMnB4IGJsdWUgc29saWQ7ICovXHJcbiAgcG9zaXRpb246YWJzb2x1dGU7XHJcbiAgYm90dG9tOiAwO1xyXG4gIGhlaWdodDogMy4ydmg7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbn1cclxuXHJcblxyXG4iXX0= */"] });
+    } }, styles: ["*[_ngcontent-%COMP%] {\r\n  font-size: 10px;\r\n  color: rgb(178, 102, 201,0.7);\r\n}\r\n.bottom[_ngcontent-%COMP%]{\r\n  \r\n  position:absolute;\r\n  bottom: 0;\r\n  height: 4vh;\r\n  width: 100%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYm90dG9tL2JvdHRvbS9ib3R0b20uY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGVBQWU7RUFDZiw2QkFBNkI7QUFDL0I7QUFDQTtFQUNFLDRCQUE0QjtFQUM1QixpQkFBaUI7RUFDakIsU0FBUztFQUNULFdBQVc7RUFDWCxXQUFXO0VBQ1gsYUFBYTtFQUNiLHNCQUFzQjtFQUN0Qix1QkFBdUI7RUFDdkIsbUJBQW1CO0FBQ3JCIiwiZmlsZSI6InNyYy9hcHAvYm90dG9tL2JvdHRvbS9ib3R0b20uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIioge1xyXG4gIGZvbnQtc2l6ZTogMTBweDtcclxuICBjb2xvcjogcmdiKDE3OCwgMTAyLCAyMDEsMC43KTtcclxufVxyXG4uYm90dG9te1xyXG4gIC8qIGJvcmRlcjogMnB4IGJsdWUgc29saWQ7ICovXHJcbiAgcG9zaXRpb246YWJzb2x1dGU7XHJcbiAgYm90dG9tOiAwO1xyXG4gIGhlaWdodDogNHZoO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG59XHJcblxyXG5cclxuIl19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](BottomComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
