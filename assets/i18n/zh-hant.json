@@ -26,6 +26,9 @@
     "PROJECT":"項目",
     "TO_BE_DEVELOPED":"待開發"
   },
+  "ADRESS":{
+    "MACAO_PARISIAN":"The Parisian Macao"
+  },
   "TEXT":{
     "PER_PAGE_TEXT":"簡介、相冊、標籤等",
     "RESUME_TEXT":"個人簡歷",
@@ -35,4 +38,5 @@
     "LAB_TEXT":"一些還在開發中或已完成練手的小東西",
     "TO_BE_DEVELOPED_TEXT":"功能尚待開發"
   }
+ 
 }
