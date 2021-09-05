@@ -741,8 +741,8 @@ class IndexComponent {
                 iconSrc: '../../assets/img/icon/opensea.png',
                 isDetailPic: false,
                 isClickDown: false,
-                detail: 'https://opensea.io/collection/mambaliucollection',
-                detailTitle: 'gitHubShow',
+                detail: 'https://opensea.io/collection/mambaliunft',
+                detailTitle: 'OpenSeaShow',
             },
             {
                 id: 3,
