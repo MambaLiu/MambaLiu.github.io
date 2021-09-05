@@ -9,6 +9,7 @@
     "EN_US":"English"
   },
   "BASE": {
+    "INDEX":"Index",
     "WELCOME": "Welcome",
     "LANGUAGE":"Language",
     "THEME":"Theme",

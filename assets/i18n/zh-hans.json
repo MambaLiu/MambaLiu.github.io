@@ -9,6 +9,7 @@
     "EN_US":"English"
   },
   "BASE": {
+    "INDEX":"首页",
     "WELCOME": "欢迎",
     "LANGUAGE":"语言",
     "THEME":"换肤",

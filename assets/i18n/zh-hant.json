@@ -9,6 +9,7 @@
     "EN_US":"English"
   },
   "BASE": {
+    "INDEX":"首頁",
     "WELCOME": "歡迎",
     "LANGUAGE":"語言",
     "THEME":"換膚",
