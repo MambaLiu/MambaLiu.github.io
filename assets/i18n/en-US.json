@@ -25,7 +25,8 @@
     "SHARE":"Share",
     "PER_PAGE":"Home page",
     "PROJECT":"Project",
-    "TO_BE_DEVELOPED":"To be developed"
+    "TO_BE_DEVELOPED":"To be developed",
+    "INTRODUCE":"Introduction"
   },
   "TEXT":{
     "PER_PAGE_TEXT":"Introduction, Photo album, Tags, etc.",
@@ -34,6 +35,7 @@
     "SHARE_TEXT":"Share some music, movies, games and other things worth sharing",
     "ABOUT_TEXT":"Some introductions and experiences about the website",
     "LAB_TEXT":"Some small things that are still under development or have completed hand training",
-    "TO_BE_DEVELOPED_TEXT":"Features to be developed"
+    "TO_BE_DEVELOPED_TEXT":"Features to be developed",
+    "INTRODUCE_TEXT":"I come from 'the most center of the Eurasian continent' and 'the city farthest from the ocean in the world'-Urumqi, located at the northern foot of the middle section of the Tianshan Mountains and adjacent to Central Asian countries. It is Xinjiang’s politics, culture, science, education, and transportation. center. What I like most is all the food made of our Xinjiang mutton (and the Cantonese morning tea), undergraduate major: software engineering, currently working in Shenzhen, as a front-end development work. The favorite multiplayer sport is playing ball. My favorite single player sport is coding. In addition, I love to play dark-realistic FPS games with my friends. For example, hardcore games like Escape from Takov can often be played as funny games. It may be because I have more humorous cells and want to be a funny game anchor and work during the day. Playing games live at night, dreaming of being able to cooperate in the development of some creative products for entrepreneurship in the future."
   }
 }
