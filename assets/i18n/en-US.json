@@ -26,7 +26,9 @@
     "PER_PAGE":"Home page",
     "PROJECT":"Project",
     "TO_BE_DEVELOPED":"To be developed",
-    "INTRODUCE":"Introduction"
+    "INTRODUCE":"Introduction",
+    "MAIN_PROFESSIONAL_SKILL":"Main professional skill",
+    "DEV_TOOLS":"Development tools"
   },
   "TEXT":{
     "PER_PAGE_TEXT":"Introduction, Photo album, Tags, etc.",

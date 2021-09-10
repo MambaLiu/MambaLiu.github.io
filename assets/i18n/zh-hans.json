@@ -26,7 +26,9 @@
     "PER_PAGE":"主页",
     "PROJECT":"项目",
     "TO_BE_DEVELOPED":"待开发",
-    "INTRODUCE":"简介"
+    "INTRODUCE":"简介",
+    "MAIN_PROFESSIONAL_SKILL":"主要专业技能",
+    "DEV_TOOLS":"开发工具类"
   },
   "TEXT":{
     "PER_PAGE_TEXT":"简介、相簿、标签等",
