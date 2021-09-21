@@ -806,7 +806,7 @@ class AboutComponent {
     }
 }
 AboutComponent.ɵfac = function AboutComponent_Factory(t) { return new (t || AboutComponent)(); };
-AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 38, vars: 8, consts: [[1, "about-out"], [1, "about-title"], [1, "about-top"], [1, "days-pic-out"], [1, "days-pic"], ["src", "../../../assets/img/bgimg/\u7EFF\u690D.jpg"], [1, "days-pic", "pic2"], ["src", "../../../assets/img/bgimg/flower2.jpg"], [1, "top-left"], [1, "left-text"], [1, "left-bottom"], [1, "left-days"], [1, "days-name"], [1, "left-hours"], [1, "days-minutes"], [1, "days-seconds"], [1, "borad-out"], [4, "ngFor", "ngForOf"], [1, "borad-all", 3, "id", "click"], [1, "borad-top", 3, "id"], [1, "top-tit"], [1, "top-des"], [1, "borad-icon-out"], [1, "borad-icon", 3, "id"], [1, "borad-text", 3, "id"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
+AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AboutComponent, selectors: [["app-about"]], decls: 50, vars: 8, consts: [[1, "about-out"], [1, "about-title"], [1, "about-top"], [1, "days-pic-out"], [1, "days-pic"], ["src", "../../../assets/img/bgimg/\u7EFF\u690D.jpg"], [1, "days-pic", "pic2"], ["src", "../../../assets/img/bgimg/flower2.jpg"], [1, "top-left"], [1, "left-text"], [1, "left-bottom"], [1, "left-days"], [1, "days-name"], [1, "left-hours"], [1, "days-minutes"], [1, "days-seconds"], [1, "borad-out"], [4, "ngFor", "ngForOf"], [1, "borad-all", 3, "id", "click"], [1, "borad-top", 3, "id"], [1, "top-tit"], [1, "top-des"], [1, "borad-icon-out"], [1, "borad-icon", 3, "id"], [1, "borad-text", 3, "id"]], template: function AboutComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
@@ -866,6 +866,24 @@ AboutComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 16);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](37, AboutComponent_ng_container_37_Template, 11, 7, "ng-container", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
@@ -924,7 +942,7 @@ class BackTopComponent {
         this.scrollDis._top = this.scollPostion().top;
         // console.log(this.scrollDis._top);
         // 显示返回顶部小火箭
-        if (this.scrollDis._top > 100) {
+        if (this.scrollDis._top > 40) {
             var arr = document.querySelector('#backTop');
             arr.setAttribute('style', 'bottom: 50px; opacity: 1;');
         }
