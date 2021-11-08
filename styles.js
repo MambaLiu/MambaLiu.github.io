@@ -7,9 +7,9 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Personal\myBlogDev\node_modules\swiper\swiper-bundle.min.css */"4l1m");
-__webpack_require__(/*! D:\Personal\myBlogDev\src\custom-theme.scss */"E2ln");
-module.exports = __webpack_require__(/*! D:\Personal\myBlogDev\src\styles.css */"OmL/");
+__webpack_require__(/*! D:\personal\myBlog\myBlog_dev\node_modules\swiper\swiper-bundle.min.css */"4l1m");
+__webpack_require__(/*! D:\personal\myBlog\myBlog_dev\src\custom-theme.scss */"E2ln");
+module.exports = __webpack_require__(/*! D:\personal\myBlog\myBlog_dev\src\styles.css */"OmL/");
 
 
 /***/ }),
