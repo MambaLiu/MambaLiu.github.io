@@ -942,7 +942,7 @@ class BackTopComponent {
         this.scrollDis._top = this.scollPostion().top;
         // console.log(this.scrollDis._top);
         // 显示返回顶部小火箭
-        if (this.scrollDis._top > 40) {
+        if (this.scrollDis._top > 60) {
             var arr = document.querySelector('#backTop');
             arr.setAttribute('style', 'bottom: 50px; opacity: 1;');
         }
@@ -976,13 +976,14 @@ class BackTopComponent {
     backToTop() {
         // 周期性定时器
         var timer = setInterval(function () {
-            var distance = document.documentElement.scrollTop || document.body.scrollTop; // 两种方法都可以获取但第一种可能存在兼容性问题
-            /* 越滚越慢
-            var speed = distance / 20;
-            document.documentElement.scrollTop=distance-speed;
-            //因ios15越滚越慢效果有bug，所以注释掉采用下面平均滚动的方法了
-            */
-            document.documentElement.scrollTop = distance - 20;
+            // 设置一个名为timmer的定时器，每10毫秒执行一次
+            // var distance=document.documentElement.scrollTop||document.body.scrollTop;// 两种方法都可以获取但第一种可能存在兼容性问题
+            var distance = document.documentElement.scrollTop;
+            // 越滚越慢
+            // var speed = distance / 20;
+            // document.documentElement.scrollTop=distance-speed;
+            //匀速滚
+            document.documentElement.scrollTop = distance - 30;
             // 清除定时器
             if (distance === 0) {
                 clearInterval(timer);
@@ -1172,7 +1173,7 @@ BottomComponent.ɵfac = function BottomComponent_Factory(t) { return new (t || B
 BottomComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BottomComponent, selectors: [["app-bottom"]], decls: 3, vars: 0, consts: [[1, "bottom"], [1, "copyright"]], template: function BottomComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Copyright \u00A9 2021 Yunze Liu. All rights reserved");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Copyright \u00A9 2021 Yunze Liu. All rights reserved | Dev-1.0");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, styles: ["*[_ngcontent-%COMP%] {\r\n  font-size: 10px;\r\n  color: rgb(178, 102, 201,0.7);\r\n}\r\n.bottom[_ngcontent-%COMP%]{\r\n  \r\n  position:absolute;\r\n  bottom: 0;\r\n  height: 4vh;\r\n  width: 100%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYm90dG9tL2JvdHRvbS9ib3R0b20uY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGVBQWU7RUFDZiw2QkFBNkI7QUFDL0I7QUFDQTtFQUNFLDRCQUE0QjtFQUM1QixpQkFBaUI7RUFDakIsU0FBUztFQUNULFdBQVc7RUFDWCxXQUFXO0VBQ1gsYUFBYTtFQUNiLHNCQUFzQjtFQUN0Qix1QkFBdUI7RUFDdkIsbUJBQW1CO0FBQ3JCIiwiZmlsZSI6InNyYy9hcHAvYm90dG9tL2JvdHRvbS9ib3R0b20uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIioge1xyXG4gIGZvbnQtc2l6ZTogMTBweDtcclxuICBjb2xvcjogcmdiKDE3OCwgMTAyLCAyMDEsMC43KTtcclxufVxyXG4uYm90dG9te1xyXG4gIC8qIGJvcmRlcjogMnB4IGJsdWUgc29saWQ7ICovXHJcbiAgcG9zaXRpb246YWJzb2x1dGU7XHJcbiAgYm90dG9tOiAwO1xyXG4gIGhlaWdodDogNHZoO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG59XHJcblxyXG5cclxuIl19 */"] });
