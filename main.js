@@ -259,11 +259,6 @@ class MeComponent {
                 imgSrc: '../../../assets/img/album/澳门巴黎人.jpg',
                 description: '这个人很懒，什么描述都没留下',
             },
-            {
-                adress: '深圳湾',
-                imgSrc: '../../../assets/img/album/深圳湾.jpg',
-                description: '有空就打打球',
-            },
         ];
         this.skillList = [
             {
