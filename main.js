@@ -249,11 +249,11 @@ class MeComponent {
                 imgSrc: '../../../assets/img/album/天山天池.jpg',
                 description: '最美的还是我们新疆',
             },
-            {
-                adress: '新疆 乌鲁木齐奥体中心',
-                imgSrc: '../../../assets/img/album/奥体中心.jpg',
-                description: 'Kobe~Bryant！',
-            },
+            // {
+            //   adress: '新疆 乌鲁木齐奥体中心',
+            //   imgSrc: '../../../assets/img/album/奥体中心.jpg',
+            //   description: 'Kobe~Bryant！',
+            // },
             {
                 adress: '澳门 巴黎人',
                 imgSrc: '../../../assets/img/album/澳门巴黎人.jpg',
