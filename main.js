@@ -234,11 +234,11 @@ class MeComponent {
                 imgSrc: '../../../assets/img/album/浮雕.jpg',
                 description: '真真假假，虚虚实实',
             },
-            {
-                adress: '香港 彩虹邨',
-                imgSrc: '../../../assets/img/album/香港彩虹邨.jpg',
-                description: '很美的室外球场',
-            },
+            // {
+            //   adress: '香港 彩虹邨',
+            //   imgSrc: '../../../assets/img/album/香港彩虹邨.jpg',
+            //   description: '很美的室外球场',
+            // },
             {
                 adress: '澳门',
                 imgSrc: '../../../assets/img/album/澳门科比球衣.jpg',
