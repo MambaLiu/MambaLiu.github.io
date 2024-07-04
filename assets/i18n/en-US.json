@@ -57,7 +57,7 @@
   },
   "ABOUT": {
     "TECHNOLOGY": "Technology",
-    "TECHNOLOGY_DES": "Construction,frameworks,technologies used, etc.",
+    "TECHNOLOGY_DES": "Construction，technologies used,etc.",
     "TECHNOLOGY_TEXT": "The website was built using GitHub Pages. The framework of the website uses Angular10. This homepage is intended to be used to familiarize yourself with the Angular framework and practice style development. I also used Angular's official component library material and the third-party Swiper component library",
     "DESIGN": "Design",
     "DESIGN_DES": "Design style and ideas",
